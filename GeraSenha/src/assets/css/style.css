@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --primary-color: rgb(66, 107, 143);
+    --primary-color-darker: rgb(18, 40, 59);
+}
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    margin: 0;
+    border: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container{
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+}
+form label, form button, form input{
+    width: 50%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input{
+    text-align: left;
+    font-size: 24px;
+    height: 20px;
+    padding: 0 20px;
+    transition: 0.25s;
+}
+
+form input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+form button{
+    border: none;
+    cursor:pointer;
+    background: var(--primary-color-darker);
+    color: #fff;
+    font-size: 20px;
+    height: 30px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+button{
+    border: none;
+    cursor:pointer;
+    background: var(--primary-color-darker);
+    color: #fff;
+    font-size: 20px;
+    height: 30px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+form button:hover{
+    background: var(--primary-color);
+}
+
+button:hover{
+    background: var(--primary-color);
+}
+
+.Resultado-false{
+    background: rgb(245, 91, 91);
+    padding: 20px;
+}
+.Resultado-true{
+    background: rgb(116, 245, 104);
+    padding: 20px;
+}
+.para{
+    font-size: 60px;
+}
+.para-zera{
+    color: red;
+}
+
+#ajeita label, #ajeita input{
+    margin-bottom: 15px;
+}
+
+
+.SenhaGerada{
+    margin: 20px;
+    padding: 20px;
+    color: var(--primary-color);
+    font-size: 34px;
+}
